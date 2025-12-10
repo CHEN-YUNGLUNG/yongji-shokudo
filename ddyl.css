@@ -1,0 +1,176 @@
+@charset "UTF-8";
+
+/*共通部分*/
+html{
+    font-size: 100%; /*根據使用者設定字體大小實時反映*/
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "LXGW WenKai Mono TC", monospace;
+    line-height: 1.7;
+    color: #FFF8DE
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 35%;
+}
+.about{
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 0;
+}
+.about p{
+    margin-bottom: 3rem;
+}
+h3{
+    color:#452829;
+}
+p{
+    font-size: 1.2rem;
+    color: #452829;
+}
+
+/*版面配置-排版*/
+.wrapper{
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
+.align-center{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+/*標題*/
+.font-zh-tw{
+    font-family: "LXGW WenKai Mono TC", monospace;
+    font-weight: bold;
+}
+.page-title{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+    line-height: 1.4;
+}
+.heading-large{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/*副標題*/
+.subtitle{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+/*按鈕*/
+.btn{
+    display:inline-block;
+    font-size: 1.5rem;
+    background-color: #D4AF37;
+    color: #452829;
+    border-radius: 8px;
+    padding: .75rem 1rem;
+}
+.btn:hover{
+    background-color: #FFF8DE;
+    transition: 0.5s;
+}
+
+/*Header*/
+.page-header{
+    padding-top: .5rem;
+}
+.logo{
+    width: 210px;
+}
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap:2.5rem;
+    font-size:1.5rem;
+    list-style: none;
+}
+.main-nav a{
+    color:#FFF8DE;
+}
+.main-nav a:hover{
+    color: #D4AF37;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.cover{
+    background-size: cover;
+    background-position: center;
+    height: 1500px;
+}
+.cover-home{
+    background-image: url(back2.jpg);
+}
+
+/*Footer*/
+.info{
+    width: 100%;
+    max-width: 544px;
+    margin: auto;
+    padding: 0 1.5rem;
+    border-spacing: 0;
+    color: #452829;
+}
+.info th,
+.info td{
+    border-bottom: 1px solid #452829;
+}
+.info th{
+    text-align: left;
+    font-weight: normal;
+    padding: 1rem;
+}
+.info td{
+    padding: 1rem 0;
+}
+.copyright{
+    background-color: #452829;
+    text-align: center;
+    padding: .5rem 0;
+    margin-top: 6rem;
+}
+
+/*Footer的背景*/
+.page-footer{
+    background-image: url(back4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 2rem;
+}
+
+/*響應式(媒體查詢Media Queries)*/
+@media(min-width: 800px){
+    /*標題*/
+    .page-title{
+        font-size: 5rem;
+    }
+    .heading-large{
+        font-size: 4rem;
+    }
+
+    /*電腦版LOGO*/
+    .logo{
+        width: 450px;
+    }
+
+    /*Header*/
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+    .main-nav{
+        font-size: 2rem;
+    }
+}
