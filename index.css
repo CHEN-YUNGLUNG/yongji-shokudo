@@ -218,6 +218,11 @@ p{
     color: #452829;
     transition: .5s;
 }
+.ad img{
+    height: 35rem;
+    width: 40rem;
+    
+}
 
 
 /*Footer*/
@@ -300,10 +305,15 @@ p{
         justify-content: space-between;
     }
     .post{
-        width: 70%;
+        width: 60%;
+        order: 2;
     }
     .sidebar{
         width: 22%;
+        order: 3;
+    }
+    .ad{
+        order: 1;
     }
     .sidebar,
     .heading-meduim{
