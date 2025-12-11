@@ -268,6 +268,10 @@ p{
     .post-title{
         font-size: 2rem;
     }
+    .news-title,
+    .news-subtitle{
+        color: #B77466;
+    }
 
     /*電腦版LOGO*/
     .logo{
