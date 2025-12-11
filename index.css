@@ -272,7 +272,7 @@ p{
     .news-subtitle{
         color: #B77466;
     }
-
+   
     /*電腦版LOGO*/
     .logo{
         width: 450px;
@@ -291,11 +291,39 @@ p{
     /*Header Cover圖片*/
     .sub-cover{
         height: 400px;
-        margin-bottom: 6rem;
+        margin-bottom: 8rem;
+    }
+
+    /*News*/
+    .news-contents{
+        display: flex;
+        justify-content: space-between;
+    }
+    .post{
+        width: 70%;
+    }
+    .sidebar{
+        width: 22%;
+    }
+    .sidebar,
+    .heading-meduim{
+        line-height: 1;
+        margin-bottom: 1rem;
     }
 
     /*Home*/
     .cover-home{
     background-image: url(back2.jpg);
+    }
+
+    /*Footer*/
+    .page-footer{
+    background-image: url(back4.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 12rem auto;
+    }
+    .info th{
+        padding-left: 2.5rem;
     }
 }
