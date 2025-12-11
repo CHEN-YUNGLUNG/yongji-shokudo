@@ -42,6 +42,9 @@ p{
     text-align: center;
     margin-bottom: 1.5rem;
 }
+.news-wrapper{
+    text-align: center;
+}
 
 /*標題*/
 .font-zh-tw{
@@ -109,9 +112,92 @@ p{
     background-position: center;
     height: 1500px;
 }
+.sub-cover{
+    background-size: cover;
+    background-position: center;
+    height: 528px;
+    margin-bottom: 4rem;
+}
 .cover-home{
     background-image: url(back2.jpg);
 }
+
+/*最新消息*/
+.cover-news{
+    background-image: url(back2.jpg);
+}
+.news-title{
+    color:#FFF8DE;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 10rem;
+    line-height: 1.4;
+}
+.news-subtitle{
+    color: #452829;
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+/*消息文章*/
+.post{
+    margin-bottom: 3rem;
+}
+.post-title{
+    color: #452829;
+    font-weight: bolder;
+    margin-bottom: 1.25rem;
+}
+.post-info{
+    color: #452829;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.post-cat{
+    display: flex;
+    gap: .5rem;
+    list-style: none;
+}
+.post-cat a{
+    color:#452829;
+    background-color: #D4AF37;
+    border-radius: 5px;
+    font-size: .875rem;
+    padding: .25rem .75rem;
+}
+.post-cat a:hover{
+    background-color: #FFF8DE;
+    transition: .5s;
+}
+.post-date{
+    color: #452829;
+    font-size: .875rem;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img-thumbnail{
+   border-radius: 16px;
+   width: 48%;
+   object-fit: cover;
+}
+.post p{
+    margin-bottom: 1.5rem;
+    line-height: 2;
+}
+.hightlight{
+    color:#AA2B1D;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
 
 /*Footer*/
 .info{
