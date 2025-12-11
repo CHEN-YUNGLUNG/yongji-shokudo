@@ -51,7 +51,9 @@ p{
     font-family: "LXGW WenKai Mono TC", monospace;
     font-weight: bold;
 }
-.page-title{
+.page-title,
+.heading-large,
+.heading-meduim{
     font-size: 3rem;
     text-align: center;
     margin-top: 10rem;
@@ -198,6 +200,25 @@ p{
     font-weight: bolder;
 }
 
+/*側邊欄*/
+.side-menu{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.side-menu li{
+    border-bottom: 1px solid #452829;
+}
+.side-menu a{
+    color: #D4AF37;
+    display: block;
+    padding: 1rem;
+}
+.side-menu a:hover{
+    color: #452829;
+    transition: .5s;
+}
+
 
 /*Footer*/
 .info{
@@ -235,7 +256,7 @@ p{
     padding-top: 2rem;
 }
 
-/*響應式(媒體查詢Media Queries)*/
+/*響應式(媒體查詢Media Queries)電腦版*/
 @media(min-width: 800px){
     /*標題*/
     .page-title{
@@ -243,6 +264,9 @@ p{
     }
     .heading-large{
         font-size: 4rem;
+    }
+    .post-title{
+        font-size: 2rem;
     }
 
     /*電腦版LOGO*/
@@ -258,5 +282,16 @@ p{
     }
     .main-nav{
         font-size: 2rem;
+    }
+
+    /*Header Cover圖片*/
+    .sub-cover{
+        height: 400px;
+        margin-bottom: 6rem;
+    }
+
+    /*Home*/
+    .cover-home{
+    background-image: url(back2.jpg);
     }
 }
