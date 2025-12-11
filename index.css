@@ -336,6 +336,9 @@ h2{
     }
 
     /*News*/
+    .cover-news{
+    background-image: url(back2.jpg);
+    }
     h2{
     margin-bottom: 3rem;
     }
