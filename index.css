@@ -20,7 +20,7 @@ img{
 }
 .about{
     max-width: 736px;
-    padding: 0 1.5rem;
+    padding: 1.5rem 1.5rem;
     margin: 3rem auto 0;
 }
 .about p{
@@ -276,7 +276,7 @@ h2{
     background-image: url(back4.jpg);
     background-size: cover;
     background-position: center;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 /*響應式(媒體查詢Media Queries)-電腦版畫面*/
@@ -304,6 +304,11 @@ h2{
     .news-subtitle{
         color: #B77466;
     }
+    .about{
+    max-width: auto;
+    padding: 1.5rem 1.5rem;
+    margin: 3rem auto 0;
+}
    
     /*電腦版LOGO*/
     .logo{
@@ -376,7 +381,7 @@ h2{
     background-image: url(back4.jpg);
     background-size: cover;
     background-position: center;
-    padding: 12rem auto;
+    padding-top: 1rem;
     }
     .info th{
         padding-left: 2.5rem;
