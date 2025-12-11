@@ -305,7 +305,7 @@ h2{
         color: #B77466;
     }
     .about{
-    max-width: auto;
+    max-width:950px;
     padding: 1.5rem 1.5rem;
     margin: 3rem auto 0;
 }
@@ -326,7 +326,7 @@ h2{
         font-size: 2rem;
     }
     .cover{
-        height: auto;
+        height: 100vh;
     }
 
     /*Header Cover圖片*/
